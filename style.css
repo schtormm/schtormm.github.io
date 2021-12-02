@@ -12,5 +12,6 @@ body {
 
 a {
     font-family: 'Open Sans';
-    align-self: center;
+    display: block;
+    text-align: center;
 }
