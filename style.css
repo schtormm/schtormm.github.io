@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
-    background-color: #e2e2e2;
+    background-color: #fafafa;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -12,7 +12,7 @@ main{
     min-height: 600px;
     margin: 0 auto;
     padding: 5%;
-    background-color: #fff;
+    background-color: #e0e0e6;
     box-shadow: 0 2px 6px 0 rgba(34 32 36 / 57%);   
     position: absolute;
     top: 50%;
@@ -73,10 +73,7 @@ main .socials ul li a span{
     font-weight: bold;
 }
 main .disclaimer{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: center;
+    text-align: c;
 }
 main .disclaimer a{
     margin: 0;
@@ -84,13 +81,20 @@ main .disclaimer a{
 }
 @media (prefers-color-scheme: dark) {
     body{
-        background-color: #3e3e42;
+        background-color: #0a0a14;
     }
     main{
-        background-color: #2d2d30;
+        background-color: #151528;
     }
     main p, h1, h2{
         color: #fff;
+    }
+    main .disclaimer a{
+        color: #5d5dac;
+    }
+    
+    main .aboutme a{
+        color: #5d5dac;
     }
 }
 
