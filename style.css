@@ -19,6 +19,7 @@ main{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
 }
 
 
@@ -85,6 +86,8 @@ main .disclaimer a{
     }
     main{
         background-color: #151528;
+        box-shadow: 0 2px 6px 0 hwb(270 45% 55% / 0.57);     
+
     }
     main p, h1, h2{
         color: #fff;
