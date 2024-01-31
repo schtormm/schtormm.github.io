@@ -7,9 +7,9 @@ body{
 
 
 main{
-    width: 60%;
+    min-width: 26%;
     max-width: 50vw;
-    min-height: 600px;
+    min-height: 15vh;
     margin: 0 auto;
     padding: 5%;
     background-color: #e0e0e6;
@@ -72,7 +72,7 @@ main .socials ul li a span{
     font-weight: bold;
 }
 main .disclaimer{
-    text-align: c;
+    text-align: center;
 }
 main .disclaimer a{
     margin: 0;
