@@ -45,17 +45,18 @@ main .info #profile{
     width: 75%;
     max-width: 250px;
     margin: 0 auto;
-    border-radius: 20%;
+    border-radius: 10%;
     align-self: self-start;
 }
 
 main .disclaimer{
     text-align: center;
-    vertical-align: bottom;
-}
+    margin-top: 2rem;
+    bottom: 20rem;
+    }
+
 
 main .disclaimer a{
-    margin: 0;
     color: blue;
 }
 
