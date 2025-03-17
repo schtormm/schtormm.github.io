@@ -1,8 +1,10 @@
-import type { Metadata } from 'next';
+import { GeistSans } from "geist/font/sans";
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: "storm's site",
+  description: "storm's personal site",
 };
 
 export default function RootLayout({
@@ -11,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={GeistSans.className}>
       <body>{children}</body>
     </html>
   );
