@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 import profile from "../public/images/profile.jpeg";
 export default function Home() {
   return (
     <main>
       <div>
-        <div className="flex flex-col justify-center min-h-[100dvh] bg-gray-50 dark:bg-gray-950">
-          <div className="p-20 mx-auto bg-gray-200 dark:bg-gray-900 shadow-lg dark:shadow-purple-900/60 rounded-xl">
+        <div className="px-5 sm:px-0 flex flex-col justify-center min-h-[100dvh] bg-gray-50 dark:bg-gray-950">
+          <div className="p-10 mx-auto bg-gray-200 dark:bg-gray-900 shadow-lg dark:shadow-purple-900/60 rounded-xl">
             <div className="mb-4">
               <Image
                 src={profile}
@@ -20,7 +21,7 @@ export default function Home() {
               <div className="text-center mt-4 dark:text-white">
                 I'm an informatica student at the{" "}
                 <a
-                  className="text-purple-600"
+                  className="text-indigo-400"
                   href="https://www.rotterdamuas.com/about/organisation/schools/school-of-communication-media-and-information-technology/welcome/"
                 >
                   Rotterdam University of Applied Sciences
@@ -34,19 +35,22 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="h-0 border-b-2 border-gray-400"></div>
+            <div className="h-0 mx-auto border-b-2 border-gray-400"></div>
             <div className="mt-8">
               <div className="dark:text-white text-center">
                 <h2 className="text-xl">Contact</h2>
                 <div>
                   If you need to contact me,{" "}
-                  <a
-                    className="text-blue-600 dark:text-purple-400"
-                    href="/links/"
-                  >
+                  <Link className="text-indigo-400" href="/links">
                     here's where you can do that
-                  </a>
+                  </Link>
                   .
+                </div>
+                <div>
+                  Additionally:{" "}
+                  <Link className="text-indigo-400" href={"/cv"}>
+                    here's my experience and a few projects!
+                  </Link>
                 </div>
               </div>
 
@@ -54,7 +58,7 @@ export default function Home() {
                 <p className="dark:text-white">
                   Credit to{" "}
                   <a
-                    className="text-blue-600 dark:text-purple-400"
+                    className="text-purple-400"
                     href="https://github.com/Matthbo"
                   >
                     Vivy
