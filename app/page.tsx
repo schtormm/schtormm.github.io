@@ -29,8 +29,8 @@ export default function Home() {
                 .
                 <p className="mt-2">
                   {" "}
-                  I like racing games and tech (anything from open source
-                  software to old consoles).
+                  I like simracing and tech (anything from open source software
+                  to old consoles).
                 </p>
               </div>
             </div>
