@@ -10,9 +10,9 @@ export default function Home() {
                 September 2024 - January 2025
               </h2>
               <div className="flex items-center gap-2">
-                <div className="border-l-2 border-purple-500 h-12 my-2"></div>
+                <div className="border-l-2 border-purple-200 h-12 my-2"></div>
                 <div className="flex flex-col">
-                  <h1 className="dark:text-white text-xl">
+                  <h1 className="text-indigo-400 text-xl">
                     <a href="https://stager.co">Stager</a>
                   </h1>
                   <article className="dark:text-white text-sm">
@@ -32,17 +32,46 @@ export default function Home() {
           <div>
             <h1 className="text-3xl text-center dark:text-white">Projects</h1>
             <div className="w-sm flex flex-col gap-4">
-              <h1 className="dark:text-white text-xl">Project D</h1>
-              <article className="dark:text-white text-sm">
-                Room booking app prototype to showcase to{" "}
-                <a href="https://eneco.nl">Eneco </a>
-                as part of the "Project D" course
-              </article>
-              <p className="dark:text-white text-wrap">
-                Worked together with four other students to create a prototype
-                for a meeting room booking app using React Native, Expo and
-                various other technologies such as tRPC and Prisma.
-              </p>
+              <div className="w-sm flex flex-col gap-4">
+                <h1 className="text-indigo-400 text-xl">
+                  <a href="https://github.com/pablosanderman/project-d">
+                    Project D
+                  </a>
+                </h1>
+                <article className="dark:text-white text-sm">
+                  Room booking app prototype to showcase to{" "}
+                  <a className="text-indigo-400" href="https://eneco.nl">
+                    Eneco{" "}
+                  </a>
+                  as part of the "Project D" course
+                </article>
+                <p className="dark:text-white text-wrap">
+                  Worked together with four other students to create a prototype
+                  for a meeting room booking app using React Native and various
+                  other technologies such as Postgres and Expo.
+                </p>
+              </div>
+              <div className="w-sm flex flex-col gap-4">
+                <h1 className="dark:text-white text-xl">Project C</h1>
+                <article className="dark:text-white text-sm">
+                  Prototype of a webapp to manage{" "}
+                  <a
+                    className="text-indigo-400"
+                    href="https://en.wikipedia.org/wiki/OGSM"
+                  >
+                    OGSM{" "}
+                  </a>{" "}
+                  charts for{" "}
+                  <a className="text-indigo-400" href="https://centric.eu/en/">
+                    Centric
+                  </a>{" "}
+                  as part of the "Project C" course
+                </article>
+                <p className="dark:text-white text-wrap">
+                  Worked together with two other students to create a prototype
+                  for a webapp to manage strategic charts using NextJS
+                </p>
+              </div>
             </div>
           </div>
         </div>
