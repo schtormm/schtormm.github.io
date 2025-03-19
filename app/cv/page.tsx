@@ -12,8 +12,11 @@ export default function Home() {
               <div className="flex items-center gap-2">
                 <div className="border-l-2 border-purple-200 h-12 my-2"></div>
                 <div className="flex flex-col">
-                  <h1 className="text-indigo-400 text-xl">
-                    <a href="https://stager.co">Stager</a> - Internship
+                  <h1 className="text-xl dark:text-white">
+                    <a className="text-indigo-400" href="https://stager.co">
+                      Stager
+                    </a>{" "}
+                    - Internship
                   </h1>
                   <article className="dark:text-white text-sm">
                     Dutch SaaS company for event planning, ticket sales,
