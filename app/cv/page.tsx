@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="border-l-2 border-purple-200 h-12 my-2"></div>
                 <div className="flex flex-col">
                   <h1 className="text-indigo-400 text-xl">
-                    <a href="https://stager.co">Stager</a>
+                    <a href="https://stager.co">Stager</a> - Internship
                   </h1>
                   <article className="dark:text-white text-sm">
                     Dutch SaaS company for event planning, ticket sales,
@@ -23,9 +23,9 @@ export default function Home() {
               </div>
               <p className="wp dark:text-white text-wrap">
                 Worked on a project refactoring and redesigning the customizable
-                newsletter unsubscription page for the company's clients. Also
-                worked on refactoring various other parts of the application to
-                bring them up to date with current style and structure.
+                newsletter unsubscription for the company's clients. Also worked
+                on refactoring various other parts of the application to bring
+                them up to date with current style and structure.
               </p>
             </div>
           </div>
