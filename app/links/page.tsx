@@ -1,3 +1,11 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "links - storm's site",
+  description:
+    "storm's personal site  - links to personal profiles and platforms",
+};
+
 export default function Home() {
   return (
     <main>
