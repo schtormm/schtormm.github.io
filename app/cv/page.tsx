@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "cv - storm's site",
+  description: "storm's personal site",
+};
+
 export default function Home() {
   return (
     <main>
