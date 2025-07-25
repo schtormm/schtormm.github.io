@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="bg-gray-50 dark:bg-gray-950 min-h-[100dvh]">
-        <div className="flex flex-col items-center justify-center gap-4 pt-10">
+      <div className="bg-gray-50 dark:bg-gray-950 flex h-screen">
+        <div className="flex flex-col items-center justify-center gap-4 pt-10 align-middle w-full">
           <h1 className="text-3xl text-center dark:text-white">
             Links and profiles
           </h1>

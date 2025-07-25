@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <div>
-        <div className="px-5 sm:px-0 flex flex-col justify-center min-h-[100dvh] bg-gray-50 dark:bg-gray-950">
+        <div className="px-5 sm:px-0 flex flex-col justify-center h-screen bg-gray-50 dark:bg-gray-950">
           <div className="p-10 mx-auto bg-gray-200 dark:bg-gray-900 shadow-lg dark:shadow-purple-900/60 rounded-xl">
             <div className="mb-4">
               <Image
