@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="min-h-[100vh] bg-gray-50 dark:bg-gray-950">
+      <div className="flex h-screen bg-gray-50 dark:bg-gray-950 flex-col items-center justify-center">
         <div className="pt-10 flex flex-col items-center justify-center gap-10">
           <div>
             <h1 className="text-3xl text-center dark:text-white">Experience</h1>
@@ -42,6 +42,24 @@ export default function Home() {
           <div>
             <h1 className="text-3xl text-center dark:text-white">Projects</h1>
             <div className="w-sm flex flex-col gap-4">
+              <div className="w-sm flex flex-col gap-4">
+                <h1 className="dark:text-white text-xl">Semester 6</h1>
+                <article className="dark:text-white text-sm">
+                  Interdisciplinary prototype of a VR appplication for{" "}
+                  <a
+                    className="text-indigo-400"
+                    href="https://www.vonkrotterdam.nl/"
+                  >
+                    Innovatiecentrum VONK
+                  </a>{" "}
+                </article>
+                <p className="dark:text-white text-wrap">
+                  Worked together with four other students to create a prototype
+                  for a VR application using Unity, FastAPI, the Oculus SDK and
+                  other technologies to showcase the possibilities of VR in
+                  tourism.
+                </p>
+              </div>
               <div className="w-sm flex flex-col gap-4">
                 <h1 className="text-indigo-400 text-xl">
                   <a href="https://github.com/pablosanderman/project-d">
