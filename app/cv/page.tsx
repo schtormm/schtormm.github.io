@@ -41,7 +41,7 @@ export default function CV() {
                   className="text-indigo-500 dark:text-indigo-400 hover:text-indigo-400 dark:hover:text-indigo-300 transition-colors"
                   href="https://stager.co"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   Stager
                 </a>{" "}
@@ -71,6 +71,42 @@ export default function CV() {
           </h2>
 
           <div className="flex flex-col gap-4">
+            {/* Data Science Minor */}
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-indigo-100 dark:hover:border-indigo-900/60 transition-all">
+              <div className="flex items-start justify-between gap-3 mb-2">
+                <a
+                  className="text-indigo-500 dark:text-indigo-400 hover:text-indigo-400 dark:hover:text-indigo-300 transition-colors"
+                  href="https://github.com/schtormm/datascience-project"
+                >
+                  Data Science Minor
+                </a>
+                <span className="text-xs bg-indigo-50 dark:bg-indigo-950/60 text-indigo-500 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/50 px-2 py-0.5 rounded-full whitespace-nowrap flex-shrink-0">
+                  Data Science
+                </span>
+              </div>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Minor in "Data Science: Big Data / Open Data at{" "}
+                <a
+                  className="text-indigo-500 dark:text-indigo-400 hover:underline underline-offset-2 transition-colors"
+                  href="https://hogeschoolrotterdam.nl"
+                  target="_blank"
+                >
+                  RUAS
+                </a>
+              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 leading-relaxed">
+                Collaborated with three other students to try training multiple
+                machine learning models to predict recessions using the{" "}
+                <a
+                  className="text-indigo-500 dark:text-indigo-400 hover:underline underline-offset-2 transition-colors"
+                  href="https://www.rug.nl/ggdc/productivity/pwt/"
+                  target="_blank"
+                >
+                  Penn World Table dataset
+                </a>
+                .
+              </p>
+            </div>
             {/* Semester 6 */}
             <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-indigo-100 dark:hover:border-indigo-900/60 transition-all">
               <div className="flex items-start justify-between gap-3 mb-2">
@@ -87,7 +123,7 @@ export default function CV() {
                   className="text-indigo-500 dark:text-indigo-400 hover:underline underline-offset-2 transition-colors"
                   href="https://www.vonkrotterdam.nl/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   Innovatiecentrum VONK
                 </a>
@@ -107,7 +143,6 @@ export default function CV() {
                     className="text-indigo-500 dark:text-indigo-400 hover:text-indigo-400 dark:hover:text-indigo-300 transition-colors"
                     href="https://github.com/pablosanderman/project-d"
                     target="_blank"
-                    rel="noopener noreferrer"
                   >
                     Project D
                   </a>
@@ -122,7 +157,7 @@ export default function CV() {
                   className="text-indigo-500 dark:text-indigo-400 hover:underline underline-offset-2 transition-colors"
                   href="https://eneco.nl"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   Eneco
                 </a>
@@ -148,7 +183,7 @@ export default function CV() {
                   className="text-indigo-500 dark:text-indigo-400 hover:underline underline-offset-2 transition-colors"
                   href="https://en.wikipedia.org/wiki/OGSM"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   OGSM
                 </a>{" "}
@@ -157,7 +192,7 @@ export default function CV() {
                   className="text-indigo-500 dark:text-indigo-400 hover:underline underline-offset-2 transition-colors"
                   href="https://centric.eu/en/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   Centric
                 </a>

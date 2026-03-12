@@ -37,7 +37,7 @@ export default function Links() {
           <a
             href="https://github.com/schtormm"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
             className="flex items-center gap-4 px-5 py-4 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-md hover:border-indigo-100 dark:hover:border-indigo-900/60 transition-all group"
           >
             <div className="w-10 h-10 rounded-xl bg-gray-900 dark:bg-gray-100 flex items-center justify-center flex-shrink-0">
@@ -66,7 +66,7 @@ export default function Links() {
           <a
             href="https://bsky.schtormm.nl"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
             className="flex items-center gap-4 px-5 py-4 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-md hover:border-sky-100 dark:hover:border-sky-900/60 transition-all group"
           >
             <div className="w-10 h-10 rounded-xl bg-sky-500 flex items-center justify-center flex-shrink-0">
@@ -122,7 +122,7 @@ export default function Links() {
           <a
             href="https://twitter.com/schtormm"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
             className="flex items-center gap-4 px-5 py-4 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-md hover:border-gray-200 dark:hover:border-gray-700 transition-all group"
           >
             <div className="w-10 h-10 rounded-xl bg-sky-400 flex items-center justify-center flex-shrink-0">

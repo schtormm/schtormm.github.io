@@ -20,19 +20,19 @@ export default function Home() {
                 />
               </div>
               <h1 className="text-2xl font-semibold dark:text-white tracking-tight">
-                Hi, I'm Storm 👋
+                Hi, I'm Storm
               </h1>
             </div>
 
             {/* Bio */}
             <div className="text-center space-y-2 mb-6">
               <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                Informatica student at the{" "}
+                I am a fourth-year Informatica student at the{" "}
                 <a
                   className="text-indigo-500 dark:text-indigo-400 hover:text-indigo-400 dark:hover:text-indigo-300 underline underline-offset-2 transition-colors"
                   href="https://www.rotterdamuas.com/about/organisation/schools/school-of-communication-media-and-information-technology/welcome/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   Rotterdam University of Applied Sciences
                 </a>
