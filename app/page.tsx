@@ -5,7 +5,7 @@ import profile from "../public/images/profile.jpeg";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 dark:bg-gray-950 flex items-center justify-center px-5 py-12">
-      <div className="w-full max-w-md animate-fade-right">
+      <div className="w-full max-w-lg animate-fade-right">
         <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg dark:shadow-black/40 overflow-hidden">
           <div className="p-8">
             {/* Profile image with gradient ring */}
