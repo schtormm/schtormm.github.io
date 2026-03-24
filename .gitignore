@@ -41,3 +41,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 package-lock.json
+
+# config files
+.next.config.ts
+package.json
+tsconfig.json
+postcss.config.mjs
+pnpm-lock.yaml
